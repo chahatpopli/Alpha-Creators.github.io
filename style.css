@@ -7,13 +7,23 @@
     height: auto;
 }
 
-.section-1 {
+#section-1 {
     height: 90vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url('1.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url('images/1.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     opacity: 0.9;
+}
+
+.h3-second {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#cards-section {
+    background-color: #F4C7AB;
 }
 
 .ul-1 {
@@ -33,7 +43,7 @@
 }
 
 .navbar-link:hover {
-    color: rgb(185, 181, 181);
+    color: #F4C7AB;
 }
 
 .updates-container span {
@@ -41,7 +51,7 @@
 }
 
 .updates-container {
-    background-color: burlywood;
+    background-color: #F4C7AB;
     border: 4px solid black;
     height: 15rem;
     width: 90%;
@@ -56,7 +66,8 @@
 
 .h1-1 {
     font-size: 11vh;
-    color: #F8F5F1;
+    color: #F4C7AB;
+    font-family: 'Righteous', cursive;
 }
 
 .buttons {
@@ -67,14 +78,14 @@
     margin-top: 30px;
 }
 
-.title {
+#title {
     background-color: white;
 }
 
 .dp {
     height: 15rem;
     width: 15rem;
-    background-image: url('2.jpg');
+    background-image: url('images/2.jpg');
     background-size: cover;
     border-radius: 50%;
     margin: auto;
@@ -109,10 +120,25 @@
     color: #ffacb7;
 }
 
-@media (max-width:400px) and (min-width:0px) {
+@media (max-width:500px) and (min-width:0px) {
     iframe,
     .carousel-one {
         width: 300px;
         height: 200px;
+    }
+    .navbar-items {
+        margin: 8px;
+    }
+    .navbar-link {
+        font-size: 2vh;
+    }
+    .h1-1 {
+        font-size: 7.5vh;
+    }
+    #section-1 {
+        height: 80vh;
+    }
+    .name {
+        margin: 50px 0px 40px 0px;
     }
 }
